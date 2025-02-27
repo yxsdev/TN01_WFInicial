@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFInicial", "WFInicial\WFInicial.csproj", "{122B0BCB-EC49-4D58-85FE-4868D6E861FF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CEx1", "CRevisao\CEx1.csproj", "{D001C38C-E99D-4FE3-AF5A-1233FE2ECDB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cex1", "CRevisao\Cex1.csproj", "{D001C38C-E99D-4FE3-AF5A-1233FE2ECDB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
