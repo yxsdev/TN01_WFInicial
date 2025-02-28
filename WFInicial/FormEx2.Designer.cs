@@ -28,12 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FormEx2";
+            lblDiaSemana = new Label();
+            txtDiaSemana = new TextBox();
+            btnEscolher = new Button();
+            SuspendLayout();
+            // 
+            // lblDiaSemana
+            // 
+            lblDiaSemana.AutoSize = true;
+            lblDiaSemana.Location = new Point(82, 52);
+            lblDiaSemana.Name = "lblDiaSemana";
+            lblDiaSemana.Size = new Size(85, 15);
+            lblDiaSemana.TabIndex = 0;
+            lblDiaSemana.Text = "Dia da Semana";
+            lblDiaSemana.Click += lblDiaSemana_Click;
+            // 
+            // txtDiaSemana
+            // 
+            txtDiaSemana.Location = new Point(82, 70);
+            txtDiaSemana.Name = "txtDiaSemana";
+            txtDiaSemana.Size = new Size(100, 23);
+            txtDiaSemana.TabIndex = 1;
+            // 
+            // btnEscolher
+            // 
+            btnEscolher.Location = new Point(188, 70);
+            btnEscolher.Name = "btnEscolher";
+            btnEscolher.Size = new Size(75, 23);
+            btnEscolher.TabIndex = 2;
+            btnEscolher.Text = "Escolher";
+            btnEscolher.UseVisualStyleBackColor = true;
+            btnEscolher.Click += btnEscolher_Click;
+            // 
+            // FormEx2
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(351, 143);
+            Controls.Add(btnEscolher);
+            Controls.Add(txtDiaSemana);
+            Controls.Add(lblDiaSemana);
+            Name = "FormEx2";
+            Text = "FormEx2";
+            Load += FormEx2_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lblDiaSemana;
+        private TextBox txtDiaSemana;
+        private Button btnEscolher;
     }
 }
