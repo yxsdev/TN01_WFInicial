@@ -25,7 +25,7 @@ namespace WFInicial
 
             double resultado = num2 * num3;
 
-            string mensagem = $"O salário de {nome} é de R${resultado:F2}");
+            string mensagem = $"O salário de {nome} é de R${resultado:F2}";
 
             MessageBox.Show(mensagem, "Info", 
                 MessageBoxButtons.OK, MessageBoxIcon.Information );
