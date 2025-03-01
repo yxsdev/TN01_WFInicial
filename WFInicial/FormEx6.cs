@@ -20,12 +20,15 @@ namespace WFInicial
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             string nome = Convert.ToString(txtNome.Text);
-            int num2 = int.Parse(txtValorHora.Text);
+            double num2 = Double.Parse(txtValorHora.Text);
             int num3 = int.Parse(txtQuantHora.Text);
 
             double resultado = num2 * num3;
 
-            MessageBox.Show($"O salário de {nome} é de R${resultado:F2}");
+            string mensagem = $"O salário de {nome} é de R${resultado:F2}");
+
+            MessageBox.Show(mensagem, "Info", 
+                MessageBoxButtons.OK, MessageBoxIcon.Information );
         }
     }
 }
