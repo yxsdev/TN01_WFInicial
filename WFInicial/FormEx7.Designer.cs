@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             lblNome = new Label();
-            txtNome1 = new TextBox();
-            txtValor1 = new TextBox();
+            txtNomeProduto = new TextBox();
+            txtValorProduto = new TextBox();
             lblValor1 = new Label();
             btnCalcular = new Button();
             SuspendLayout();
@@ -45,19 +45,19 @@
             lblNome.Text = "Nome Produto:";
             lblNome.Click += lblNome1_Click;
             // 
-            // txtNome1
+            // txtNomeProduto
             // 
-            txtNome1.Location = new Point(195, 78);
-            txtNome1.Name = "txtNome1";
-            txtNome1.Size = new Size(113, 23);
-            txtNome1.TabIndex = 6;
+            txtNomeProduto.Location = new Point(195, 78);
+            txtNomeProduto.Name = "txtNomeProduto";
+            txtNomeProduto.Size = new Size(113, 23);
+            txtNomeProduto.TabIndex = 6;
             // 
-            // txtValor1
+            // txtValorProduto
             // 
-            txtValor1.Location = new Point(195, 107);
-            txtValor1.Name = "txtValor1";
-            txtValor1.Size = new Size(113, 23);
-            txtValor1.TabIndex = 12;
+            txtValorProduto.Location = new Point(195, 107);
+            txtValorProduto.Name = "txtValorProduto";
+            txtValorProduto.Size = new Size(113, 23);
+            txtValorProduto.TabIndex = 12;
             // 
             // lblValor1
             // 
@@ -85,8 +85,8 @@
             ClientSize = new Size(445, 275);
             Controls.Add(btnCalcular);
             Controls.Add(lblValor1);
-            Controls.Add(txtValor1);
-            Controls.Add(txtNome1);
+            Controls.Add(txtValorProduto);
+            Controls.Add(txtNomeProduto);
             Controls.Add(lblNome);
             Name = "FormEx7";
             Text = "FormEx7";
@@ -98,8 +98,8 @@
         #endregion
 
         private Label lblNome;
-        private TextBox txtNome1;
-        private TextBox txtValor1;
+        private TextBox txtNomeProduto;
+        private TextBox txtValorProduto;
         private Label lblValor1;
         private Button btnCalcular;
     }
