@@ -74,7 +74,7 @@
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(113, 23);
             btnCalcular.TabIndex = 24;
-            btnCalcular.Text = "Calcular";
+            btnCalcular.Text = "Cadastrar";
             btnCalcular.UseVisualStyleBackColor = true;
             btnCalcular.Click += btnCalcular_Click;
             // 
