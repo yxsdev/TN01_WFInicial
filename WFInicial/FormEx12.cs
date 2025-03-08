@@ -26,15 +26,18 @@ namespace WFInicial
             int numero = int.Parse(txtNumero.Text);
             numeros[contagem] = numero;
 
-            if(numero % 2 == 0)
+            if (contagem < 20)
             {
-                Array.Resize(ref pares, pares.Length + 1);
-                pares[pares.Length - 1] = numero;
-            }
-            else
-            {
-                Array.Resize(ref impares, impares.Length + 1);
-                impares[impares.Length - 1] = numero;
+                if (numero % 2 == 0)
+                {
+                    Array.Resize(ref pares, pares.Length + 1);
+                    pares[pares.Length - 1] = numero;
+                }
+                else
+                {
+                    Array.Resize(ref impares, impares.Length + 1);
+                    impares[impares.Length - 1] = numero;
+                }
             }
 
             if (contagem == 20)
