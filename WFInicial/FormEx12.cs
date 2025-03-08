@@ -57,6 +57,7 @@ namespace WFInicial
             }
 
             contagem++;
+            lblContador.Text = contagem.ToString();
             txtNumero.Text = "";
 
         }
